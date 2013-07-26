@@ -1,0 +1,15 @@
+[user]
+	name = Justin Ribeiro
+	email = justin@justinribeiro.com
+[credential]
+	helper = cache --timeout=3600
+[diff]
+    tool = winmerge
+[difftool "winmerge"]
+    cmd = ~/scripts/git-difftool-winmerge-wrapper.sh \"$LOCAL\" \"$REMOTE\"
+[difftool]
+    prompt = false
+[merge]
+	log = true
+[color]
+	ui = auto
